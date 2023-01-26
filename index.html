@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+<title>Strona do obliczania logarytmów</title>
+
+
+
+<style>
+
+input {
+  width: 5%;
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+<input type="number" id="dzienPoczatkowy">.<input type="number" id="miesiacPoczatkowy">.<input type="number" id="rokPoczatkowy">
+
+<input type="number" id="godzinaPoczatkowa" value="0"/> : <input type="number" id="minutaPoczatkowa" value="0"/> : <input type="number" id="sekundaPoczatkowa" value="0"/>
+
+<br><br>
+
+
+<input type="number" id="dzienKoncowy">.<input type="number" id="miesiacKoncowy">.<input type="number" id="rokKoncowy">
+
+<input type="number" id="godzinaKoncowa" value="0"/> : <input type="number" id="minutaKoncowa" value="0"/> : <input type="number" id="sekundaKoncowa" value="0"/>
+
+
+<br><br>
+
+
+<script src="skrypt.js"></script>
+<button onclick="myFunction()">Oblicz ilość czasu pomiędzy datami</button>
+
+
+<br><br>
+
+<h3><div id="iloscCzasuPomiedzyDatami"></div></h3>
+
+</body>
+</html>
